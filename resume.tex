@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper,roman,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[scale=0.75,a4paper]{geometry}
+\usepackage{babel}
+\usepackage{multicol}
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{Estefany}
+\familyname{Cerritos Luna}                              % optional, remove/comment the line if not wanted
+\address{1071 Saint Nicholas Ave. }{10032, New York, NY}
+\phone{(214) 573-3684}                          % optional, remove/comment the line if not wanted                        % optional, remove/comment the line if not wanted                            % optional, remove/comment the line if not wanted
+\email{estefany.a.luna21@gmail.coml}                               % optional, remove/comment the line if not wanted                        % optional, remove/comment the line if not wanted               % optional, remove/comment the line if not wanted
+% \photo[64pt][0.4pt]{picture}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+                             % optional, remove/comment the line if not wanted
+%
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Education}
+\cventry{2007--2011}{High School Diploma}{Garland High School}{Garland, TX}{}{}  % arguments 3 to 6 can be left empty
+\section{Experience}
+\subsection{Vocational}
+\cventry{February 2014--February 2015}{Cashier}{McDonald's}{Garland}{}{}
+	\begin{itemize}
+		\item Mastered use of Point-Of-Sale systems.
+		\item Gained expertise in use of cash register.
+	\end{itemize}
+\subsection{Miscellaneous}
+\cventry{September 2011-- April 2013}{Homeless Shelter Volunteer}{Volunteer}{Dallas}{}{Prepared and distributed food to homeless men and women.}
+\section{Languages}
+\cvitemwithcomment{Spanish}{22 years}{}
+\cvitemwithcomment{English}{14 years}{}
+\section{Computer skills}
+	\begin{multicols}{3}
+
+	
+		\begin{itemize}
+		  \item[] \LaTeX
+		  \item[] Windows
+		  \item[] Linux
+		  \item[] LibreOffice
+		  \item[] Git 
+		\end{itemize}
+	\end{multicols}
+\section{Interests}
+\cvitem{Women's Health}{Reading and researching about interesting, and useful facts regarding the female anatomy and physiology.}
+\cvitem{Culinary Art}{Researching and exploring different styles and recipes of food preparation.}
+
+\section{References}
+\begin{cvcolumns}
+ 
+  \cvcolumn{Lucia Ramirez}{Manager: (469) 335-4162}
+  \cvcolumn{Jeanette Flores}{Manager: (915) 820-8551}
+  \cvcolumn{Thomas Gebert}{(214) 355-8547}
+\end{cvcolumns}
+\clearpage
+
+\end{document}
